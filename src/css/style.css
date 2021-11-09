@@ -1,0 +1,94 @@
+@import url(./font.css);
+@import url(./variable.css);
+@import url(./global.css);
+/* HEADER SECTION */
+.navbar .navbar-brand {
+  padding: 0 2rem 0 5rem;
+}
+
+.navbar .navbar-nav {
+  padding: 1rem 18rem;
+}
+
+.navbar .navbar-nav a {
+  font: normal 500 15px/2px var(--roboto);
+  text-transform: uppercase;
+  padding: 1.7rem;
+  color: var(--title-color) !important;
+  margin-right: 10px;
+}
+
+.navbar-nav .nav-link.active {
+  background: var(--gradient-color);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.navbar-nav .nav-link:hover {
+  background: var(--gradient-color);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* END HEADER SECTION */
+
+/* BANNER */
+.site-banner .site-title h3 {
+  padding-top: 35%;
+  font-weight: 500;
+}
+
+.site-banner .site-title {
+  padding-left: 7%;
+}
+
+.site-banner .site-title h3::after {
+  content: "";
+  height: 2px;
+  width: 18vw;
+  background: black;
+  display: inline-block;
+  margin-left: 5%;
+  transform: translateY(-10px);
+}
+
+.site-banner .site-title h1 {
+  font-size: 5rem;
+}
+
+.site-banner .site-title h4 {
+  font-size: 1.5rem;
+}
+
+/* END BANNER */
+
+/* ABOUT SECTION */
+.about-area {
+  padding: 8rem 5rem;
+}
+
+.about-area .about-title h2 > span {
+  display: block;
+  font: normal bold 49px/60px var(--roboto);
+  letter-spacing: 21px;
+}
+
+.about-area .about-title .paragraph > p {
+  padding: 4rem 0;
+}
+/*END ABOUT SECTION */
+
+/* BRAND SECTION */
+.brand-area .single-brand{
+  padding: 1rem;
+  margin-bottom: 4rem;
+}
+
+.brand-area .first-row .col-lg-4{
+  display: flex;
+  justify-content: center;
+}
+
+.brand-area .first-row .col-lg-4 > .single-brand{
+  border:1px solid var(--)
+}
+/* END BRAND SECTION */
